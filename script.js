@@ -1,4 +1,4 @@
-const API_URL = 'http://localhost:4567/api';
+const API_URL = 'https://b81aa6f1-aa4b-4d9a-99bc-d8673fcd9925-00-hxzai5bvpbaa.spock.replit.dev/';
 
 async function carregarLancamentos() {
   const res = await fetch(`${API_URL}/resumo`);
