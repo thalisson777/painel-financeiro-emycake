@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Painel Financeiro - Emytec</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Painel Financeiro - Emytec</h1>
+  </header>
+
+  <section id="resumo">
+    <h2>Resumo Financeiro</h2>
+    <ul id="lista-lancamentos"></ul>
+  </section>
+
+  <section id="novo-lancamento">
+    <h2>Novo Lançamento</h2>
+    <form id="form-lancamento">
+      <input type="text" id="descricao" placeholder="Descrição" required>
+      <input type="number" id="valor" placeholder="Valor" required>
+      <select id="tipo">
+        <option value="receita">Receita</option>
+        <option value="despesa">Despesa</option>
+      </select>
+      <button type="submit">Salvar</button>
+    </form>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
